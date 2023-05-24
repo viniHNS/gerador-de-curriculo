@@ -1,6 +1,6 @@
 # Gerador de currículos 📋
 
-Trabalho desenvolvido por Vinicius Hissayoshi Nishida (RA 09038971) para obtenção de nota para a disciplina de Fundamentos de programação para Internet ministrada pelo Professor Carlos Eduardo Simões Pelegrin na Universidade Paranaense (UNIPAR).
+Trabalho desenvolvido por Vinicius Hissayoshi Nishida (RA 09038971) para obtenção de nota para a disciplina de Fundamentos de programação para Internet ministrada pelo Professor Carlos Eduardo Simões Pelegrin na Universidade Paranaense (UNIPAR), curso Sistemas de Informação.
 
 ## Estrutura de pastas 📁
 
