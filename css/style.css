@@ -82,6 +82,22 @@ ul{
 
 /* FIM -> ESTILIZAÇÃO SOBRE*/
 
+/* INICIO -> ESTILIZAÇÃO HOME-PAGE*/
+
+.content-homepage{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 24px rgba(0, 0, 0, 0.6);
+}
+
+
+/* FIM -> ESTILIZAÇÃO HOME-PAGE*/
+
 
 /* INICIO -> ESTILIZAÇÃO FOOTER*/
 footer{
