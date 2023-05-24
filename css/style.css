@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+/* INICIO -> ESTILIZAÇÃO GERAL*/
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f1f1f1;  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* FIM -> ESTILIZAÇÃO GERAL*/
+
+
+/* INICIO -> ESTILIZAÇÃO NAVBAR*/
+
+.navbar a{
+    color: #000;
+}
+
+.navbar a:hover{
+    color: #34A855;
+}
+
+.nav-items{
+    color: #0000;
+    background-color: #fff;
+    padding: 0 1rem;
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+.nav-logo a{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-menu a{
+    font-size: 1.2rem;
+}
+
+/* FIM -> ESTILIZAÇÃO NAVBAR*/
+
+/* INICIO -> ESTILIZAÇÃO SOBRE*/
+
+.contact {
+    background-color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 24px rgba(0, 0, 0, 0.6);
+    line-height: 1.7rem;
+
+}
+
+/* FIM -> ESTILIZAÇÃO SOBRE*/
+
+
+/* INICIO -> ESTILIZAÇÃO FOOTER*/
+footer{
+    margin-top: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* FIM -> ESTILIZAÇÃO FOOTER*/
+
+
+/* INICIO ->  Estilização do formulário */
+
+.container{
+    background-color: #fff;
+    padding: 2rem 12rem;
+    margin: 3rem 20rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 24px rgba(0, 0, 0, 0.6);
+}
+
+form{
+    margin: 1rem;
+}
+
+form input, select, textarea{
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus, select:focus, textarea:focus{
+    outline: none;
+    border: 1px solid #34A855;
+}
+
+form .title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+form .grid{
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2rem;
+
+}
+
+button {
+    font-size: 14px;
+    background-color: #34A855;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* FIM -> Estilização do formulário */
+
+/* INICIO -> Estilização da impressão */
+
+.container-print{
+    background-color: #fff;
+    padding: 2rem 12rem;
+    margin: 3rem 20rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 24px rgba(0, 0, 0, 0.6);
+}
+
+/* FIM -> Estilização da impressão */
+
+
+
+
+

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+/* INICIO -> ESTILIZAÇÃO GERAL*/
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* FIM -> ESTILIZAÇÃO GERAL*/
+
+/* INICIO -> ESTILIZAÇÃO CURRICULO*/
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.title-personal{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #000;
+    padding: 0.1rem;
+}
+
+.title-academic, .title-certificate, .title-profissional, .title-language{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #000;
+    padding: 0.1rem;
+}
+
+.full-name{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    
+}
+
+.data-nasc{
+    font-size: 16px;
+    text-align: center;
+}
+
+.tel{
+    font-size: 16px;
+    text-align: center;
+}
+
