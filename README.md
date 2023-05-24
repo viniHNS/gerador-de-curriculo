@@ -7,6 +7,8 @@ Trabalho desenvolvido por Vinicius Hissayoshi Nishida (RA 09038971) para obtenç
 - **css**
     - Contém as folhas de estilo em cascata (CSS) utilizadas em todo o projeto.
 
+    - Foi utilizado um arquivo CSS no formato CDN, no caso, `paper.css`, nada mais do que uma folha de estilo para gerar páginas no formato A4
+
 - **img**
     - Contém a imagem utilizada como icone do site (fav-icon).
 
