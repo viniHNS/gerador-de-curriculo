@@ -33,4 +33,6 @@ Trabalho desenvolvido por Vinicius Hissayoshi Nishida (RA 09038971) para obtenç
 
         - `footer.php` *Página que contém o rodapé do site.* 
 
-        - `index.php` *Este arquivo é a Home-Page do site.* 
+        - `index.php` *Este arquivo é a Home-Page do site.*
+
+        - `navbar.php` *Página que contém a barra de navegação do site* 
