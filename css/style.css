@@ -160,6 +160,10 @@ button {
     margin-top: 1rem;
 }
 
+.btn-add-academic-info:hover, .btn-add-professional-info:hover, .btn-add-certification-info:hover, .btn-add-language-info:hover, .btn-print:hover{
+    background-color: #278041;
+}
+
 /* FIM -> Estilização do formulário */
 
 /* INICIO -> Estilização da impressão */
