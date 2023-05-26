@@ -89,8 +89,8 @@
                 <input type="text" name="cargo[]" id="cargo">
             </div>
             <div class="grid">
-                <label for="data_inicio">Data de início:</label>
-                <label for="data_fim">Data de término:</label>
+                <label for="data_inicio_profissional">Data de início:</label>
+                <label for="data_fim_profissional">Data de término:</label>
                 <input type="date" name="data_inicio_profissional[]" id="data_inicio_profissional">
                 <input type="date" name="data_fim_profissional[]" id="data_fim_profissional">
             </div>
@@ -120,8 +120,8 @@
                 <input type="text" name="instituicao_certificado[]" id="instituicao_certificado">
             </div>
             <div class="grid">
-                <label for="data_inicio">Data de início:</label>
-                <label for="data_fim">Data de término:</label>
+                <label for="data_inicio_certificacao">Data de início:</label>
+                <label for="data_fim_certificacao">Data de término:</label>
                 <input type="date" name="data_inicio_certificacao[]" id="data_inicio_certificacao">
                 <input type="date" name="data_fim_certificacao[]" id="data_fim_certificacao">
             </div>
