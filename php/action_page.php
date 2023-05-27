@@ -14,13 +14,14 @@
     $empresa = $_POST['empresa'];
     $cargo = $_POST['cargo'];
     $data_inicio_profissional = $_POST['data_inicio_profissional'];
-    $data_fim_profissional = $_POST['data_fim_profissional'];
+    @$data_fim_profissional = $_POST['data_fim_profissional'];
     $atividades = $_POST['atividades'];
     $carga_horaria = $_POST['carga_horaria'];
     $certificado = $_POST['certificacao'];
     $instituicao_certificado = $_POST['instituicao_certificado'];
     $idioma = $_POST['idioma'];
     $nivel = $_POST['nivel'];
+    @$emprego_atual = $_POST['emprego_atual'];
 
     if($tel == ""){
         $tel = "Não informado";
@@ -47,7 +48,6 @@
                 <p class="title-personal" >Dados pessoais</p>
                 <?php 
                     $today = date('Y');
-
                     echo "<p class='full-name'> $fname $lname</p>";
                     echo "<p class='data-nasc'><b>Data de nascimento: </b>" . date('d/m/Y',strtotime($data_nasc)) . "  <b>Idade: </b>" . 
                     $today - date('Y', strtotime($data_nasc)) ."  <b>Estado Civil:</b> " . ucfirst($estado_civil) . "</p>";
@@ -67,8 +67,16 @@
                 <p class="title-profissional">Experiência profissional</p>
                 <?php 
                     for($i = 0; $i < count($empresa); $i++){
+                        $checkbox = isset($emprego_atual[$i]);
+                        
+                        if(@$data_fim_profissional[$i] == NULL && $checkbox == true){
+                            $data_fim_profissional[$i] = "Atualmente";
+                        } else {
+                            $data_fim_profissional[$i] = date('Y', strtotime($data_fim_profissional[$i]));
+                        }
+                        
                         echo "<ul><li><p>". $empresa[$i] . " - " . $cargo[$i] . " ⏐ " . date('Y', strtotime($data_inicio_profissional[$i])) . 
-                        " - " . date('Y', strtotime($data_fim_profissional[$i])) .  " ⏐ " . ucfirst($atividades[$i]) ."</p></li></ul>";
+                        " - " .  $data_fim_profissional[$i] .  " ⏐ " . ucfirst($atividades[$i]) ."</p></li></ul>";
                     }
                 ?>
             </div>
@@ -88,9 +96,6 @@
                     }
                 ?>
             </div>
-            
-            
-
         </div>
     </section>
 
