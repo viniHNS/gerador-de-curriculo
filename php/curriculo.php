@@ -97,7 +97,7 @@
             <div class="grid">
                 <label for="atividades">Atividades:</label>
                 <span style="display: flex; gap: 8px; align-items:center;">
-                    <input type="checkbox" name="emprego_atual[]" id="emprego_atual">
+                    <input type="checkbox" name="emprego_atual[]" id="emprego_atual" onchange="checaEmpregoAtualCheckbox()">
                     <p>É meu emprego atual</p>
                 </span>
                 <textarea name="atividades[]" id="atividades" cols="30" rows="10"></textarea>
@@ -155,19 +155,13 @@
             <button class="btn-add-language-info" type="button">+</button>
         </span>
 
-
         <button type="button" class="btn-print">Imprimir</button>
     </form>
-
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="../js/vanilla-masker.js"></script>
 <script src="../js/index.js"></script>
-
-
-
-
 
 <?php require "footer.php"?>
 
