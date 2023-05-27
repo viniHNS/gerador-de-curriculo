@@ -12,8 +12,7 @@ body{
     background: #f1f1f1;  
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 a{
@@ -23,12 +22,10 @@ a{
 ul{
     list-style-type: none;
 }
-
 /* FIM -> ESTILIZAÇÃO GERAL*/
 
 
 /* INICIO -> ESTILIZAÇÃO NAVBAR*/
-
 .navbar a{
     color: #000;
 }
@@ -47,7 +44,6 @@ ul{
     align-items: center;
     width: 100%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-    
 }
 
 .nav-logo a{
@@ -64,11 +60,10 @@ ul{
 .nav-menu a{
     font-size: 1.2rem;
 }
-
 /* FIM -> ESTILIZAÇÃO NAVBAR*/
 
-/* INICIO -> ESTILIZAÇÃO SOBRE*/
 
+/* INICIO -> ESTILIZAÇÃO SOBRE*/
 .contact {
     background-color: #fff;
     text-align: center;
@@ -77,13 +72,11 @@ ul{
     border-radius: 5px;
     box-shadow: 0 1px 24px rgba(0, 0, 0, 0.6);
     line-height: 1.7rem;
-
 }
-
 /* FIM -> ESTILIZAÇÃO SOBRE*/
 
-/* INICIO -> ESTILIZAÇÃO HOME-PAGE*/
 
+/* INICIO -> ESTILIZAÇÃO HOME-PAGE*/
 .content-homepage{
     display: flex;
     justify-content: space-around;
@@ -94,8 +87,6 @@ ul{
     border-radius: 5px;
     box-shadow: 0 1px 24px rgba(0, 0, 0, 0.6);
 }
-
-
 /* FIM -> ESTILIZAÇÃO HOME-PAGE*/
 
 
@@ -105,12 +96,10 @@ footer{
     text-align: center;
     padding: 1rem;
 }
-
 /* FIM -> ESTILIZAÇÃO FOOTER*/
 
 
 /* INICIO ->  Estilização do formulário */
-
 .container{
     background-color: #fff;
     padding: 2rem 12rem;
@@ -137,8 +126,7 @@ form input:focus, select:focus, textarea:focus{
 
 form .title{
     font-size: 1.5rem;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 form .grid{
@@ -146,7 +134,6 @@ form .grid{
     margin-top: 1rem;
     grid-template-columns: 1fr 1fr;
     gap: 0 2rem;
-
 }
 
 button {
@@ -163,11 +150,10 @@ button {
 .btn-add-academic-info:hover, .btn-add-professional-info:hover, .btn-add-certification-info:hover, .btn-add-language-info:hover, .btn-print:hover{
     background-color: #278041;
 }
-
 /* FIM -> Estilização do formulário */
 
-/* INICIO -> Estilização da impressão */
 
+/* INICIO -> Estilização da impressão */
 .container-print{
     background-color: #fff;
     padding: 2rem 12rem;
@@ -175,7 +161,6 @@ button {
     border-radius: 5px;
     box-shadow: 0 1px 24px rgba(0, 0, 0, 0.6);
 }
-
 /* FIM -> Estilização da impressão */
 
 
