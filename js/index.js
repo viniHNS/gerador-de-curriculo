@@ -11,7 +11,7 @@ $(document).ready(function() {
     })
 
     $(".btn-add-professional-info").on("click", () => {
-        $(".professional-exp").after(`<br><div class='grid'><label for='empresa'>Empresa:</label><label for='cargo'>Cargo:</label><input type='text' name='empresa[]' id='empresa'><input type='text' name='cargo[]' id='cargo'></div><div class='grid'><label for='data_inicio_profissional'>Data de início:</label><label for='data_fim_profissional'>Data de término:</label><input type='date' name='data_inicio_profissional[]' id='data_inicio_profissional'><input type='date' name='data_fim_profissional[]' id='data_fim_profissional'></div><div class='grid'><label for='atividades'>Atividades:</label><span style='display: flex; gap: 8px; align-items:center;'><input type='checkbox' name='emprego_atual[]' id='emprego_atual'><p>É meu emprego atual</p></span><textarea name='atividades[]' id='atividades' cols='30' rows='10'></textarea></div> `)
+        $(".professional-exp").after(`<br><div class='grid'><label for='empresa'>Empresa:</label><label for='cargo'>Cargo:</label><input type='text' name='empresa[]' id='empresa'><input type='text' name='cargo[]' id='cargo'></div><div class='grid'><label for='data_inicio_profissional'>Data de início:</label><label for='data_fim_profissional'>Data de término:</label><input type='date' name='data_inicio_profissional[]' id='data_inicio_profissional'><input type='date' name='data_fim_profissional[]' id='data_fim_profissional'></div><div class='grid'><label for='atividades'>Atividades:</label><span style='display: flex; gap: 8px; align-items:center;'><input type='checkbox' name='emprego_atual[]' id='emprego_atual' onchange='checaEmpregoAtualCheckbox()'><p>É meu emprego atual</p></span><textarea name='atividades[]' id='atividades' cols='30' rows='10'></textarea></div> `)
     })
 
     $(".btn-add-certification-info").on("click", () => {
@@ -44,7 +44,25 @@ $(document).ready(function() {
               })
         }  
     })
+
 })
+
+checaEmpregoAtualCheckbox = () => {
+    
+    if($("#emprego_atual").prop("checked") == true){
+        $("#data_fim_profissional").attr("disabled", true)
+        console.log("marcado")
+    } else {
+        $("#data_fim_profissional").attr("disabled", false)
+        console.log("desmarcado")
+
+    }
+}
+
+
+
+
+
 
 
 
