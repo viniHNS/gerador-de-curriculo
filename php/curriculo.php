@@ -1,6 +1,5 @@
 <?php require "navbar.php"?>
 
-
 <div class="container">
     <form id="form" action="action_page.php" method="post">
         <div class="personal-info">
@@ -10,13 +9,11 @@
                 <label for="lname"><span style="color: red;">*</span>Sobrenome:</label>
                 <input type="text" name="fname" id="fname">
                 <input type="text" name="lname" id="lname">
-
             </div>
 
             <label for="data_nasc"><span style="color: red;">*</span>Data de nascimento</label>
             <br>
             <input type="date" name="data_nasc" id="data_nasc" required>
-
 
             <br>
             <label for="email"><span style="color: red;">*</span>E-mail:</label>
@@ -164,6 +161,3 @@
 <script src="../js/index.js"></script>
 
 <?php require "footer.php"?>
-
-
-

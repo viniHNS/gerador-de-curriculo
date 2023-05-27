@@ -44,7 +44,6 @@ $(document).ready(function() {
               })
         }  
     })
-
 })
 
 checaEmpregoAtualCheckbox = () => {
@@ -55,7 +54,6 @@ checaEmpregoAtualCheckbox = () => {
     } else {
         $("#data_fim_profissional").attr("disabled", false)
         console.log("desmarcado")
-
     }
 }
 
