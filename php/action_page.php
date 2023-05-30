@@ -67,11 +67,10 @@
                 <p class="title-profissional">Experiência profissional</p>
                 <?php 
                     for($i = 0; $i < count($empresa); $i++){
-                        $checkbox = isset($emprego_atual[$i]);
                         
-                        if(@$data_fim_profissional[$i] == NULL && $checkbox == true){
+                        if(isset($emprego_atual[$i])){
                             $data_fim_profissional[$i] = "Atualmente";
-                        } else {
+                        } else{
                             $data_fim_profissional[$i] = date('Y', strtotime($data_fim_profissional[$i]));
                         }
                         
