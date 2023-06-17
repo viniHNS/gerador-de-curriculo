@@ -1,7 +1,7 @@
 <?php require "navbar.php"?>
 
 <div class="container">
-    <form id="form" action="action_page.php" method="post">
+    <form id="form" action="../action_page.php" method="post">
         <div class="personal-info">
             <p class="title">Dados pessoais</p>
             <div class="grid">
